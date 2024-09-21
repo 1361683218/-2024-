@@ -1,7 +1,7 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.model.domain.Banner;
+import com.example.musicwebsite.model.domain.Banner;
 
 import java.util.List;
 

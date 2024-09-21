@@ -1,4 +1,4 @@
-package com.example.yin.constant;
+package com.example.musicwebsite.constant;
 
 public class Constants {
 

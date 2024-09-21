@@ -1,9 +1,9 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.common.R;
-import com.example.yin.model.domain.Comment;
-import com.example.yin.model.request.CommentRequest;
+import com.example.musicwebsite.common.R;
+import com.example.musicwebsite.model.domain.Comment;
+import com.example.musicwebsite.model.request.CommentRequest;
 
 public interface CommentService extends IService<Comment> {
 

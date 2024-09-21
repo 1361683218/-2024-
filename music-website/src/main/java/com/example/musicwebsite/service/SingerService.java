@@ -1,9 +1,9 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.common.R;
-import com.example.yin.model.domain.Singer;
-import com.example.yin.model.request.SingerRequest;
+import com.example.musicwebsite.common.R;
+import com.example.musicwebsite.model.domain.Singer;
+import com.example.musicwebsite.model.request.SingerRequest;
 import org.springframework.web.multipart.MultipartFile;
 
 public interface SingerService extends IService<Singer> {

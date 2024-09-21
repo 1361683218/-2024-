@@ -1,9 +1,9 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.common.R;
-import com.example.yin.model.domain.Consumer;
-import com.example.yin.model.request.ConsumerRequest;
+import com.example.musicwebsite.common.R;
+import com.example.musicwebsite.model.domain.Consumer;
+import com.example.musicwebsite.model.request.ConsumerRequest;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpSession;

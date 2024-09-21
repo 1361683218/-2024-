@@ -1,9 +1,9 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.common.R;
-import com.example.yin.model.domain.SongList;
-import com.example.yin.model.request.SongListRequest;
+import com.example.musicwebsite.common.R;
+import com.example.musicwebsite.model.domain.SongList;
+import com.example.musicwebsite.model.request.SongListRequest;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

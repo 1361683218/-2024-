@@ -1,9 +1,9 @@
-package com.example.yin.service;
+package com.example.musicwebsite.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.yin.common.R;
-import com.example.yin.model.domain.RankList;
-import com.example.yin.model.request.RankListRequest;
+import com.example.musicwebsite.common.R;
+import com.example.musicwebsite.model.domain.RankList;
+import com.example.musicwebsite.model.request.RankListRequest;
 
 public interface RankListService extends IService<RankList> {
 

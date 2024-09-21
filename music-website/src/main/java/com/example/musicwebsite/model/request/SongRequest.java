@@ -1,4 +1,4 @@
-package com.example.yin.model.request;
+package com.example.musicwebsite.model.request;
 
 import lombok.Data;
 

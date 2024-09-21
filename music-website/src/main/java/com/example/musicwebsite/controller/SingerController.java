@@ -1,4 +1,4 @@
-package com.example.yin.controller;
+package com.example.musicwebsite.controller;
 
 
 import org.springframework.web.bind.annotation.*;

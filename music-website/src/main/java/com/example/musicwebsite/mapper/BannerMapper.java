@@ -1,7 +1,7 @@
 package com.example.musicwebsite.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.yin.model.domain.Banner;
+import com.example.musicwebsite.model.domain.Banner;
 
 /**
 * @author asus

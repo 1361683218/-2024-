@@ -1,4 +1,4 @@
-package com.example.yin.model.domain;
+package com.example.musicwebsite.model.domain;
 
 import lombok.Data;
 

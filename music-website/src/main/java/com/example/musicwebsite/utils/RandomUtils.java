@@ -1,4 +1,4 @@
-package com.example.yin.utils;
+package com.example.musicwebsite.utils;
 
 import java.util.Random;
 
