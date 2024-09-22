@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
+import org.springframework.web.multipart.MultipartFile;
 
 
 import javax.servlet.http.HttpSession;
@@ -38,6 +39,22 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
         return R.success("注册成功");
 
     }
+
+    @Override
+    public R updateUserMsg(ConsumerRequest updateRequest) {
+        return R.success("修改成功");
+    }
+
+    @Override
+    public R updateUserAvator(MultipartFile avatorFile, int id) {
+        return R.success("上传成功", "/User/img");
+    }
+
+    @Override
+    public R updatePassword(ConsumerRequest updatePasswordRequest) {
+        return R.success("密码修改成功");
+    }
+
     /**
      * @description 用户存在判定
      */
@@ -55,6 +72,21 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
     }
 
     @Override
+    public R deleteUser(Integer id) {
+        return R.success("删除成功");
+    }
+
+    @Override
+    public R allUser() {
+        return R.success(null, consumerMapper.selectList(null));
+    }
+
+    @Override
+    public R userOfId(Integer id) {
+        return R.success(null, id);
+    }
+
+    @Override
     public R loginStatus(ConsumerRequest loginRequest, HttpSession session) {
 
         String username = loginRequest.getUsername();
@@ -68,6 +100,21 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
         } else {
             return R.error("用户名或密码错误");
         }
+    }
+
+    @Override
+    public R loginEmailStatus(ConsumerRequest loginRequest, HttpSession session) {
+        return null;
+    }
+
+    @Override
+    public Consumer findByEmail(String email) {
+        return null;
+    }
+
+    @Override
+    public R updatePassword01(ConsumerRequest updatePasswordRequest) {
+        return null;
     }
 
 
