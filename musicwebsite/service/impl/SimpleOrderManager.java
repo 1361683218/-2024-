@@ -5,9 +5,6 @@ import com.example.musicwebsite.model.domain.Order;
 import com.example.musicwebsite.service.OrderManager;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
-/**
- * 邮箱信息的发送
- */
 
 @Service
 public class SimpleOrderManager implements OrderManager {

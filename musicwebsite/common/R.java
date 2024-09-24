@@ -2,10 +2,7 @@ package com.example.musicwebsite.common;
 
 import lombok.Data;
 
-/**
- * @Author 祝英台炸油条
- * @Time : 2022/6/4 19:04
- **/
+
 @Data
 public class R {
 

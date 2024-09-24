@@ -2,10 +2,7 @@ package com.example.musicwebsite.model.request;
 
 import lombok.Data;
 
-/**
- * @Author 祝英台炸油条
- * @Time : 2022/6/6 18:44
- **/
+
 @Data
 public class AdminRequest {
     private Integer id;

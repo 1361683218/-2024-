@@ -7,18 +7,11 @@ import com.example.musicwebsite.mapper.ConsumerMapper;
 import com.example.musicwebsite.model.domain.Consumer;
 import com.example.musicwebsite.model.request.ConsumerRequest;
 import com.example.musicwebsite.service.ConsumerService;
-import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
-import org.springframework.util.DigestUtils;
 import org.springframework.web.multipart.MultipartFile;
-
-
 import javax.servlet.http.HttpSession;
 
-import java.nio.charset.StandardCharsets;
 
 
 
@@ -30,7 +23,7 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
 
 
     /**
-     * @description 添加新用户
+     *  添加新用户
      */
     @Override
     public R addUser(ConsumerRequest registryRequest) {
@@ -56,14 +49,14 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
     }
 
     /**
-     * @description 用户存在判定
+     *  用户存在判定
      */
     @Override
     public boolean existUser(String username) {
         return true;
     }
     /**
-     * @description 用户登录密码判定
+     *  用户登录密码判定
      */
     @Override
     public boolean verityPasswd(String username, String password) {
